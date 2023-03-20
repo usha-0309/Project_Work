@@ -1,0 +1,141 @@
+*{
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+
+body{
+
+    background-image: url(../images/service-bg.jpg);
+   /* background-color: white ;*/
+    color: #fff !important;
+    background-position: center; 
+}
+.Services{
+    border: solid black;
+    margin: 90px auto;
+    text-align: center;
+    background-color: black;
+
+}
+.Services h1{
+font-family: sans-serif;
+letter-spacing: 5px;
+padding: 15px;
+
+}
+
+.card{
+justify-content: space-around;
+position: static;
+width: 900px;
+}
+  
+.card-2{
+border: solid black;
+align-items: center;
+background-color: black;
+margin-top: 0px;
+padding-top: 50px;
+}
+.Services .card-2{
+    margin-top: 50px;
+}
+
+h5{
+    color: black;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+h5:hover{
+    color: #fac031;
+
+}
+
+#wifi{
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+    box-shadow: 0 0 20px rgb(227, 215, 215);
+}
+#wifi:hover{
+    transform: scale(0.9);
+    opacity: 0.8;
+
+}
+#car_parking{
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+    box-shadow: 0 0 20px rgb(227, 215, 215);
+
+}
+#car_parking:hover{
+    transform: scale(0.9);
+    opacity: 0.8;
+
+}
+
+#drink_hotel{
+width: 475px;
+height: 320px;
+align-items: center;
+object-fit: cover;
+object-position: center;
+transition: 0.3s;
+box-shadow: 0 0 20px rgb(227, 215, 215);
+
+
+
+}
+#drink_hotel:hover{
+transform: scale(0.9);
+opacity: 0.8;
+
+}
+#minibar{
+width: 490px;
+height: 320px;
+object-fit: cover;
+object-position: center;
+transition: 0.3s;
+box-shadow: 0 0 20px rgb(227, 215, 215);
+
+}
+#minibar:hover{
+    transform: scale(0.9);
+    opacity: 0.8;
+
+    }
+#swimmingpool{
+    width: 490px;
+height: 320px;
+align-items: center;
+object-fit: cover;
+object-position: center;
+transition: 0.3s;
+box-shadow: 0 0 20px rgb(227, 215, 215);
+
+}
+#swimmingpool:hover{
+
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+#hotel_hair{
+    width: 490px;
+    height: 320px;
+    object-fit: cover;
+object-position: center;
+transition: 0.3s;
+box-shadow: 0 0 20px rgb(227, 215, 215);
+
+}
+#hotel_hair:hover{
+    transform: scale(0.9);
+    opacity: 0.8;
+
+}
